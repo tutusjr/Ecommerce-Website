@@ -5,3 +5,10 @@
 *{
     box-sizing: border-box;
 }
+
+.button1{
+    @apply bg-gradient-to-r w-12 hover:pl-24 outline-none h-8 from-primary to-secondary transition-all duration-200 text-white py-1 px-4 rounded-full inline-flex justify-center items-center overflow-hidden
+}
+.button2{
+    @apply bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full dark:text-gray-800 font-medium
+}

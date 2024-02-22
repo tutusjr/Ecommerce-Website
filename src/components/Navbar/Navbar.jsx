@@ -21,7 +21,7 @@ export default function Navbar() {
           <div className="flex gap-4 items-center">
             <div className=" relative hidden sm:block group">
               <input
-                className="w-[150px] sm:w-[150px] group-hover:w-[200px] transition-all duration-300 rounded-full border border-gray-300  px-2 py-1 outline-none focus:border-1 focus:border-primary"
+                className="w-[150px] sm:w-[150px] group-hover:w-[200px] transition-all duration-300 rounded-full border border-gray-300  px-2 py-1 outline-none focus:border-1 focus:border-primary dark:border-gray-500 dark:bg-gray-800"
                 type="text"
                 placeholder="search"
               />
@@ -32,12 +32,12 @@ export default function Navbar() {
               onClick={() => {
                 console.log("order");
               }}
-              className="bg-gradient-to-r w-12 hover:pl-24  outline-none h-8 from-primary to-secondary transition-all duration-200 text-white py-1 px-4 rounded-full inline-flex justify-center items-center group  overflow-hidden "
+              className="button1"
             >
-              <span className="-translate-x-[49px] text-[15px] drop-shadow-sm font-medium uppercase transition-all duration-300">
+              <span className="-translate-x-[49px] text-[15px] drop-shadow-sm font-medium uppercase transition-all duration-300 dark:text-gray-800">
                 Order
               </span>
-              <FaCartShopping className="absolute text-xl text-white drop-shadow-sm cursor-pointer text-[18px] " />
+              <FaCartShopping className="dark:text-gray-800 duration-200 absolute text-xl text-white drop-shadow-sm cursor-pointer text-[18px] " />
             </button>
             {/* DARKMODE SWITCH */}
             <div>
