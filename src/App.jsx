@@ -4,6 +4,7 @@ import Products from "./components/Products/Products";
 import AOS from "aos";
 import { useEffect } from "react";
 import "aos/dist/aos.css";
+import TopProducts from "./components/TopProducts/TopProducts";
 
 export default function App() {
 
@@ -21,6 +22,7 @@ export default function App() {
       <Navbar />
       <Hero />
       <Products />
+      <TopProducts />
     </div>
   )
 }
