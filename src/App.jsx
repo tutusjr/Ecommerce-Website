@@ -5,6 +5,9 @@ import AOS from "aos";
 import { useEffect } from "react";
 import "aos/dist/aos.css";
 import TopProducts from "./components/TopProducts/TopProducts";
+import Banner from "./components/Banner/Banner";
+import Subs from "./components/Subs/Subs";
+import TopSelling from "./components/TopSelling/TopSelling";
 
 export default function App() {
 
@@ -23,6 +26,9 @@ export default function App() {
       <Hero />
       <Products />
       <TopProducts />
+      <Banner />
+      <Subs />
+      <TopSelling />
     </div>
   )
 }

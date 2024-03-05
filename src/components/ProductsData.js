@@ -9,7 +9,7 @@ const ProductsData = [
         img: Img1,
         title:"Kadın Giyim",
         rating: 5.0,
-        author: "White",
+        author: "Beyaz",
         aosDelay: "0",
     },
     {
@@ -17,7 +17,7 @@ const ProductsData = [
         img: Img2,
         title:"Batı Kadın",
         rating: 4.5,
-        author: "Red",
+        author: "Kırmızı",
         aosDelay: "200",
     },
     {
@@ -25,7 +25,7 @@ const ProductsData = [
         img: Img3,
         title:"Gözlükler",
         rating: 4.7,
-        author: "Brown",
+        author: "Kahverengi",
         aosDelay: "400",
     },
     {
@@ -33,7 +33,7 @@ const ProductsData = [
         img: Img4,
         title:"Baskı T-shirt",
         rating: 4.4,
-        author: "Yellow",
+        author: "Sarı",
         aosDelay: "600",
     },
     {
@@ -41,7 +41,7 @@ const ProductsData = [
         img: Img2,
         title:"Moda T-shirtler",
         rating: 4.9,
-        author: "Pink",
+        author: "Pembe",
         aosDelay: "800",
     }
 ];

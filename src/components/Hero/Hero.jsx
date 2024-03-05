@@ -73,7 +73,7 @@ export default function Hero() {
                     data-aos-duration="500"
                     data-aos-delay="300"
                   >
-                    <button className="button2">Order</button>
+                    <button className="button2 ml-2">Order</button>
                   </div>
                 </div>
                 {/* images */}
