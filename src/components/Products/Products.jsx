@@ -43,7 +43,7 @@ export default function Products() {
         </div>
         {/* button */}
         <div className="flex justify-center items-center mt-5">
-        <button className="button2">
+        <button data-aos="fade-up" data-aos-delay="500" data-aos-once="true" className="button2">
           Tüm Ürünleri Gör
         </button>
         </div>

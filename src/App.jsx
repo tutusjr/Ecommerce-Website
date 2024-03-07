@@ -8,6 +8,7 @@ import TopProducts from "./components/TopProducts/TopProducts";
 import Banner from "./components/Banner/Banner";
 import Subs from "./components/Subs/Subs";
 import TopSelling from "./components/TopSelling/TopSelling";
+import Testimonials from "./components/Testimonials/Testimonials";
 
 export default function App() {
 
@@ -29,6 +30,7 @@ export default function App() {
       <Banner />
       <Subs />
       <TopSelling />
+      <Testimonials />
     </div>
   )
 }

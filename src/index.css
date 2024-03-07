@@ -7,7 +7,7 @@
 }
 html,body{
     scroll-behavior: smooth;
-    @apply dark:bg-gray-900 text-white
+    @apply dark:bg-gray-900 dark:text-white
 }
 
 .button1{
