@@ -9,6 +9,7 @@ import Banner from "./components/Banner/Banner";
 import Subs from "./components/Subs/Subs";
 import TopSelling from "./components/TopSelling/TopSelling";
 import Testimonials from "./components/Testimonials/Testimonials";
+import Footer from "./components/Footer/Footer";
 
 export default function App() {
 
@@ -31,6 +32,7 @@ export default function App() {
       <Subs />
       <TopSelling />
       <Testimonials />
+      <Footer />
     </div>
   )
 }

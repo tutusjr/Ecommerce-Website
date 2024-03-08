@@ -69,12 +69,12 @@ export default function Testimonials() {
         <div className="container">
             {/* header */}
             <div className="flex flex-col text-center justify-center">
-                <p className="text-sm text-primary">Yorumlar</p>
-                <h1 className="text-3xl font-bold">Müşteri Yorumları</h1>
-                <p className="text-sm text-gray-400">Lorem ipsum dolor sit amet</p>
+                <p data-aos="fade-up" data-aos-once="true" className="text-sm text-primary">Yorumlar</p>
+                <h1 data-aos="fade-up" data-aos-once="true" className="text-3xl font-bold">Müşteri Yorumları</h1>
+                <p data-aos="fade-up" data-aos-once="true" className="text-sm text-gray-400">Lorem ipsum dolor sit amet</p>
             </div>
             {/* comment section */}
-            <div>
+            <div data-aos="zoom-in" data-aos-once="true">
                 <Slider {...settings}>
                     
                     {ImageList2.map((data) => (

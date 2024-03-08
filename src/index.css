@@ -16,3 +16,6 @@ html,body{
 .button2{
     @apply bg-gradient-to-r active:scale-100 drop-shadow-lg from-primary to-secondary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full dark:text-gray-800 font-medium 
 }
+.linkFooter{
+    @apply hover:text-orange-400  hover:translate-x-2 duration-300 transition-all ease-in-out font-semibold
+}
