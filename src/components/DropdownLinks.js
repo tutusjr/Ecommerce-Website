@@ -1,17 +1,17 @@
 const DropdownLinks = [
     {
         id: 1,
-        name: 'Trending Products',
+        name: 'Çok Satan Ürünler',
         link: '/#'
     },
     {
         id: 2,
-        name: 'Top Selling Products',
+        name: 'Sık Ziyaret Edilenler',
         link: '/#'
     },
     {
         id: 3,
-        name: 'Top Rated',
+        name: 'Yüksek Puanlı Ürünler',
         link: '/#'
     }
 ]

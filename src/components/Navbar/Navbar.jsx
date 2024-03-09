@@ -65,7 +65,7 @@ export default function Navbar() {
               className="flex justify-center items-center gap-1 px-4 hover:text-primary duration-200"
               href="#"
             >
-              Trending{" "}
+              Çok Satanlar{" "}
               <span>
                 <IoCaretDownOutline className="transition-all duration-200 group-hover:rotate-180" />
               </span>

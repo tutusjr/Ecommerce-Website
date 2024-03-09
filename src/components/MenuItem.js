@@ -1,27 +1,27 @@
 const MenuItem = [
     {
         id: 1,
-        name: 'Home',
+        name: 'Ana sayfa',
         link: '/#'
     },
     {
         id: 2,
-        name: 'Top Rated',
+        name: 'Yüksek Puanlı',
         link: '/#services'
     },
     {
         id: 3,
-        name: 'Kids Wear',
+        name: 'Çocuk Giyim',
         link: '/#',
     },
     {
         id: 4,
-        name: 'Mens Wear',
+        name: 'Erkek giyim',
         link: '/#',
     },
     {
         id: 5,
-        name: 'Electronics',
+        name: 'Elektronik Ürünler',
         link: '/#',
     }
 ];
